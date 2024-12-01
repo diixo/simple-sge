@@ -7,7 +7,6 @@ apt-get install -y wget tcsh openjdk-8-jdk-headless make gcc ant libhwloc-dev \
 
 VER=8.1.9
 cd /root
-wget -c http://arc.liv.ac.uk/downloads/SGE/releases/$VER/sge-$VER.tar.gz
 tar zxvf sge-$VER.tar.gz
 
 cd /root/sge-$VER/source
