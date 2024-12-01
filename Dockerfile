@@ -1,5 +1,7 @@
 FROM ubuntu
 
+COPY ./sge-8.1.9.tar.gz /root/
+
 MAINTAINER Karl Gutwin <karl@gutwin.org>
 
 ADD install-sge.sh /root/install-sge.sh
