@@ -4,6 +4,19 @@ simple-sge
 Simple installation of [Son of Grid Engine](https://arc.liv.ac.uk/trac/SGE)
 designed primarily for testing software that integrates with SGE.
 
+
+## Build
+```
+docker build -t simple-sge .
+```
+
+
+## Run
+```
+docker run -ti --name ssge simple-sge
+```
+
+
 Usage
 -----
 
